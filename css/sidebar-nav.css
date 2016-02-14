@@ -1,0 +1,52 @@
+/* Small screens: make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+    background-color: #fff;
+    color: black;
+    margin-left: 40px; 
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+/* All Screen Sizes */
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: #fff;
+  border:none;
+  color: #000;
+}
+.navbar-default{
+  border: none;
+  border-color: #fff;
+  font-weight: 500;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #777;
+}
+.navbar-default {
+  background: #fff;
+}
+
+}
+.navbar-default {
+background: #fff;
+border: #fff;

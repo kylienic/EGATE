@@ -1,0 +1,72 @@
+@font-face {
+font-family: 'Avenir';
+src: local("fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+body{
+	/*font-family: 'Avenir', 'Muli', sans-serif;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	overflow: hidden;
+	color: #000;
+}
+.btn-grey{
+	background-color: #e7e7e7;
+}
+.btn-grey:hover{
+	background-color: #fff;
+	font-color: black;
+}
+.logo{
+	margin-top: 70px;
+}
+.form-control:focus {
+  border-color: #bbb;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+  font-color: black;
+}
+.water {
+    width: 100%;
+    height: 0%;
+    background-color: #000;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999;
+    color: #fff;
+}
+.success{
+	margin-top: 30%;
+}
+.fadein {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999;
+    display: none;
+    opacity: 0.5;
+}
+.whitelogo{
+	position: absolute;
+	bottom: 0;
+}
+.title{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.bodytext{
+	margin-top: 20px;
+}
+.waterdrop{
+	margin-top: 50px; 
+}
+.waterdrop:hover{
+	opacity: 0.5; 
+}
+@media (max-width: 768px) {
+  div.col-sm-8 {
+  	/*fix width of text for mobile*/
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
