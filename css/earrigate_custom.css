@@ -2,22 +2,30 @@
 font-family: 'Avenir';
 src: local("fonts/AvenirNextLTPro-Regular.otf") format("opentype");
 }
+@font-face {
+font-family: 'Avenir';
+src: local("fonts/AvenirNextLTPro-Bold.otf") format("opentype");
+font-weight: bold;
+}
+
 body{
-	/*font-family: 'Avenir', 'Muli', sans-serif;*/
-	font-family: 'Muli', sans-serif;
-	font-weight: 400;
-	overflow: hidden;
+	font-family: 'Avenir', 'Muli', sans-serif;
+	/*font-family: 'Muli', sans-serif;*/
+/*	font-weight: 400;*/
+	/*overflow: hidden;*/
 	color: #000;
 }
-.btn-grey{
-	background-color: #e7e7e7;
+.btn-white{
+	background-color: #fff;
+  border: none;
+  font-color: black;
 }
-.btn-grey:hover{
+.btn-white:hover{
 	background-color: #fff;
 	font-color: black;
 }
 .logo{
-	margin-top: 70px;
+	margin-top: 13px;
 }
 .form-control:focus {
   border-color: #bbb;
@@ -35,6 +43,7 @@ body{
 }
 .success{
 	margin-top: 30%;
+  position: relative;
 }
 .fadein {
     width: 100%;
@@ -56,13 +65,58 @@ body{
 }
 .bodytext{
 	margin-top: 20px;
+  font-size: 1em;
 }
 .waterdrop{
-	margin-top: 50px; 
+	margin-top: 20px; 
 }
 .waterdrop:hover{
 	opacity: 0.5; 
 }
+.form-control{
+  border-radius: 0px; 
+}
+.navbar-toggle{
+  border: none;
+  float: left;
+  color: black;
+  margin-left: 10px;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+/* hamburger color */
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: black;
+}
+
+div.navbar-header{
+  border: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border: none;
+}
+
+.form-signin{
+  margin-top: 50%;
+}
+
+.footer{
+  margin-left: 15px;
+}
+
+.success h1{
+  font-size: 4em;
+}
+
+.success h3{
+  font-weight: normal;
+}
+
 @media (max-width: 768px) {
   div.col-sm-8 {
   	/*fix width of text for mobile*/
