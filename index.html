@@ -52,7 +52,12 @@
     
        <div class="col-sm-6"> 
         <div class="logo">
-          <center><img src="img/logo_90.png"/></center>
+          <center>
+          <div class="logo-center">
+            <img src="img/logo_nodrop.png" width="90px" id="img-nodrop"/>
+            <img src="img/drop_90.png" width="34px" id="img-drop"/>
+          </div>
+          </center>
         <!-- </div> -->
        </div> 
 
@@ -64,14 +69,28 @@
             <input type="text" class="form-control" id="fieldName" name="cm-name" placeholder="Full Name" required>
             <label for="inputEmail" class="sr-only">Email address</label>
             <input type="email" id="fieldEmail" name="cm-hjjhkh-hjjhkh" class="form-control" placeholder="Email" required>
-            <button class="btn btn-lg btn-white btn-block subscribe" type="submit">SUBSCRIBE</button>
+            <!-- <button class="btn btn-lg btn-white btn-block subscribe" type="submit">SUBSCRIBE</button> -->
+
           </form>
+          <button class="btn btn-lg btn-white btn-block subscribe" id="click-subscribe">SUBSCRIBE</button>
         </div> <!-- /form-container -->
       </div>
     </div>
     <!-- / main page content -->
     <!-- Fade Over Transition Page -->
-    
+     <div class="fadein"></div> 
+    <div class="water"> 
+        <!-- <div class="col-sm-6 col-sm-offset-3"> -->
+        <div class="success">
+          <center>
+          <h1>YOU'RE IN.</h1>
+          <h3>See you Thursday.</h3>
+          <a href="index.html">
+            <img class="waterdrop" src="img/waterdrop100.png" border="0" alt=""/></a>
+          </center>
+          <!-- </div> -->
+      </div>
+    </div>
 
     <!-- Begin Footer -->
     <footer class="footer">
@@ -106,17 +125,4 @@
     <script src="js/earrigate.js"></script>
      </footer>
   </body>
-  <div class="fadein"></div> 
-    <div class="water"> 
-        <!-- <div class="col-sm-6 col-sm-offset-3"> -->
-        <div class="success">
-          <center>
-          <h1>YOU'RE IN.</h1>
-          <h3>See you Thursday.</h3>
-          <a href="index.html">
-            <img class="waterdrop" src="img/waterdrop100.png" border="0" alt=""/></a>
-          </center>
-          <!-- </div> -->
-      </div>
-    </div>
 </html>

@@ -12,7 +12,7 @@ body{
 	font-family: 'Avenir', 'Muli', sans-serif;
 	/*font-family: 'Muli', sans-serif;*/
 /*	font-weight: 400;*/
-	/*overflow: hidden;*/
+	overflow: hidden;
 	color: #000;
 }
 .btn-white{
@@ -42,8 +42,10 @@ body{
     color: #fff;
 }
 .success{
-	margin-top: 30%;
-  position: relative;
+	position: absolute;
+  top: 40%;
+  left: 38%;
+
 }
 .fadein {
     width: 100%;
@@ -103,6 +105,7 @@ div.navbar-header{
 
 .form-signin{
   margin-top: 50%;
+  position: relative;
 }
 
 .footer{
@@ -126,7 +129,17 @@ h1{
   font-weight: 600;
 }
 .about{
-  margin-top: 100px;
+  margin-top: 50px;
+}
+#img-drop{
+  position: absolute;
+  z-index: 999;
+  left: 33%;
+  top: 32%;
+}
+.logo-center{
+  width: 90px;
+  position: relative;
 }
 @media (max-width: 768px) {
   div.col-sm-8 {
