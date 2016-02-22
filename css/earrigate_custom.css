@@ -65,7 +65,7 @@ body{
 }
 .bodytext{
 	margin-top: 20px;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 .waterdrop{
 	margin-top: 20px; 
@@ -116,7 +116,18 @@ div.navbar-header{
 .success h3{
   font-weight: normal;
 }
-
+.subscribe{
+  font-weight: bold;
+}
+ul.nav{
+  font-weight: bold;
+}
+h1{
+  font-weight: 600;
+}
+.about{
+  margin-top: 100px;
+}
 @media (max-width: 768px) {
   div.col-sm-8 {
   	/*fix width of text for mobile*/
