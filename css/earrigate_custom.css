@@ -20,9 +20,35 @@ body{
   border: none;
   font-color: black;
 }
-.btn-white:hover{
-	background-color: #fff;
-	font-color: black;
+button.subscribe{
+  transition: all 0.3s ease 0.1s;
+  opacity: 1;
+}
+button.subscribe{
+  width: 120px;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+button.subscribe:hover{
+ opacity: 0;
+}
+button.subscribe:active{
+  border: none;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
 }
 .logo{
 	margin-top: 13px;
@@ -104,7 +130,7 @@ div.navbar-header{
 }
 
 .form-signin{
-  margin-top: 50%;
+  margin-top: 200px;
   position: relative;
 }
 
@@ -147,4 +173,11 @@ h1{
     margin-left: 50px;
     margin-right: 50px;
   }
+
+  .form-signin{
+  margin-top: 50px;
+}
+body{
+  padding-top: 10px;
+}
 }
