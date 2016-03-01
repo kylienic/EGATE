@@ -199,16 +199,24 @@ h1{
 }
 body{
   padding-top: 10px;
+  overflow: hidden;
 }
 .abouttext{
   margin-left: 0px;
+}
+.navbar-collapse{
+  font-size: 18px;
 }
 }
 @media (max-width: 600px) {
   .success{
   left: 20%;
+  top: 30%;
 }
 @media (max-width: 400px) {
   .success{
   left: 15%;
+}
+html{
+  overflow: hidden;
 }
