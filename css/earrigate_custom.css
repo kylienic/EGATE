@@ -57,6 +57,17 @@ button.subscribe:active{
 .logo{
 	margin-top: 13px;
 }
+div.center-nav{
+  left: 42%;
+}
+button.navbar-toggle{
+  left: 42%;
+}
+ul.nav{
+  left: 42%;
+  margin-left: 140px;
+  width: 100px;
+}
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
