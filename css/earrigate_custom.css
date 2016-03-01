@@ -9,7 +9,8 @@ font-weight: bold;
 }
 
 body{
-	font-family: 'Avenir', 'Muli', sans-serif;
+	/*font-family: 'Avenir', 'Muli', sans-serif;*/
+  font-family: 'Avenir', 'Lora', sans-serif;
 	/*font-family: 'Muli', sans-serif;*/
 /*	font-weight: 400;*/
 	overflow: hidden;
@@ -19,6 +20,9 @@ body{
 	background-color: #fff;
   border: none;
   font-color: black;
+}
+#click-subscribe{
+  font-weight: bold;
 }
 button.subscribe{
   transition: all 0.3s ease 0.1s;
@@ -52,6 +56,15 @@ button.subscribe:active{
 }
 .logo{
 	margin-top: 13px;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 4px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
 }
 .form-control:focus {
   border-color: #bbb;
@@ -160,8 +173,8 @@ h1{
 #img-drop{
   position: absolute;
   z-index: 999;
-  left: 33%;
-  top: 32%;
+  left: 35%;
+  top: 33%;
 }
 .logo-center{
   width: 90px;
@@ -170,14 +183,32 @@ h1{
 @media (max-width: 768px) {
   div.col-sm-8 {
   	/*fix width of text for mobile*/
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
-
+.success{
+  left: 30%;
+  right: auto;
+}
   .form-signin{
   margin-top: 50px;
+  max-width: 300px;
+}
+#click-subscribe{
+  margin-top: 20px;
 }
 body{
   padding-top: 10px;
 }
+.abouttext{
+  margin-left: 0px;
+}
+}
+@media (max-width: 600px) {
+  .success{
+  left: 20%;
+}
+@media (max-width: 400px) {
+  .success{
+  left: 15%;
 }
