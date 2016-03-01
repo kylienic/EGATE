@@ -180,6 +180,11 @@ h1{
   width: 90px;
   position: relative;
 }
+.hyperlink{
+  display: inline-block;
+  margin-left: 20px;
+  width: 30px;
+}
 @media (max-width: 768px) {
   div.col-sm-8 {
   	/*fix width of text for mobile*/
