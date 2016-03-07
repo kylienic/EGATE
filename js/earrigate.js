@@ -16,19 +16,36 @@ $( "#click-subscribe").click(function() {
         // bottom: '-500px'
         top: '1000px'
     }, 2000)
-    $(".fadein").delay(1000).fadeIn(2000);
+    // $(".fadein").delay(1000).fadeIn(2000);
     $('.water').delay(2000).animate({
         height: '100%'
     }, 2000)
 });
+if(".water".click() && !".logo-line".click()){
+    fadeback();
+};
 
-$( ".water").click(function() {
+    function fadeback() {
     $("#img-drop").animate({
         // bottom: '-500px'
         top: '33%'
     },10)
-    $(".fadein").fadeOut(2000);
+    // $(".fadein").fadeOut(2000);
     $('.water').delay(500).animate({
         height: '0%'
-    }, 2000)
-});
+    }, 2000, function(){
+        location.reload();
+    })
+};
+// $( ".water").click(function() {
+//     $("#img-drop").animate({
+//         // bottom: '-500px'
+//         top: '33%'
+//     },10)
+//     // $(".fadein").fadeOut(2000);
+//     $('.water').delay(500).animate({
+//         height: '0%'
+//     }, 2000, function(){
+//         location.reload();
+//     })
+// });
